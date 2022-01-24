@@ -1,0 +1,40 @@
+{
+  "name": "vinesh",
+  "version": "1.1.6",
+  "description": "A portfolio card to know more about me (Vinesh Rajpurohit)",
+  "main": "index.js",
+  "bin": {
+    "viensh": "index.js"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "open": "^8.0.4",
+    "screenfull": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.4.1"
+  },
+  "author": "Vinesh Rajpurohit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janaSunrise/npx-portfolio-card.git"
+  },
+  "keywords": [
+    "npx-card",
+    "portfolio-card"
+  ],
+  "bugs": {
+    "url": "https://github.com/janaSunrise/npx-portfolio-card/issues"
+  },
+  "homepage": "https://github.com/janaSunrise/npx-portfolio-card#readme"
+}
